@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.6) ; 
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 40px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    transition: color 0.3s ease-in-out;
+}
+.nav-list li button{
+ padding: 0%;
+ background: none;
+ border: none;
+ color: white;
+ font-style: normal;
+ font-size: 18px;
+}
+header{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6) ; 
+    color: white;
+}
+main{
+    text-align: center;
+} 
+.image{
+    width: 100%;
+}
+table,td,th{
+    border: 1px solid black;
+}
+table{
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+margin-right: auto;
+} 
+td,th{
+    padding: 20px;
+}
+.video{
+    width: 100%;
+}
+#footer{
+   background-color:ghostwhite; 
+}
+.footer-list{
+    display: flex;
+    list-style: none;
+
+}
+.footer-list li{
+    margin-right: 50px;
+
+}
+.footer-list li a {
+    text-decoration: none;
+    color:  black;
+    font-size: 18px;
+    font-style: normal;
+    transition: color 0.3s ease-in-out;
+    padding: 50%;
+}
